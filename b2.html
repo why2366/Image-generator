@@ -64,7 +64,7 @@
         document.getElementById('uploadForm').onsubmit = async (e) => {
             e.preventDefault();
             const formData = new FormData(e.target);
-            const response = await fetch('https://150.158.79.217:5000/upload', {
+            const response = await fetch('https:\150.158.79.217:5000\upload', {
                 method: 'POST',
                 body: formData
             });
